@@ -10,7 +10,7 @@ services:
       MYSQL_DATABASE: django_simple
       MYSQL_ROOT_PASSWORD: root
     ports:
-      - "3307:3306"  # Map host port 3307 to container port 3306
+      - "3308:3306"  # Map host port 3307 to container port 3306
 
   web:
     build: .
